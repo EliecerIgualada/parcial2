@@ -29,7 +29,7 @@
             <form class="d-flex">
                 <h3><label for="text" style="color:#FFFFFF">Artículo </label></h3>.
 
-<form action="" class="d-flex" method="post">
+<form action="<?php echo "index.php?c=".seg::codificar("productos")."&m=".seg::codificar("mostrar")?>" class="d-flex" method="post">
                 <input class="form-control me-2" type="search" placeholder="Escriba el artículo" aria-label="Search" name="txtBuscar" required>
                 <input type="hidden" value="<?php echo seg::getToken()?>" name="token">
                 <button class="btn btn-outline-light" type="submit">Buscar</button>

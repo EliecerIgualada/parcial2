@@ -25,7 +25,7 @@ class usuario_controller{
                     require_once("views/template/header.php"); 
                     require_once("views/template/navbar.php");
                     require_once("views/principal/index.php");
-                    require_once("views/usuario/login.php");
+                    require_once("controllers/productos_controller.php");
                     require_once("views/template/footer.php");
                 }
 
