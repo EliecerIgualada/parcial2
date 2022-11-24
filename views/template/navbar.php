@@ -26,17 +26,14 @@
                 </li>
             </ul>
             <?php if(isset($_SESSION["usuario"])){?>
-            <form class="d-flex">
+
+<form action="<?php echo "index.php?c=".seg::codificar("productos")."&m=".seg::codificar("mostrar")?>" method="post" class="d-flex">
                 <h3><label for="text" style="color:#FFFFFF">Artículo </label></h3>.
-
-<form action="<?php echo "index.php?c=".seg::codificar("productos")."&m=".seg::codificar("mostrar")?>" class="d-flex" method="post">
-                <input class="form-control me-2" type="search" placeholder="Escriba el artículo" aria-label="Search" name="txtBuscar" required>
+                <input class="form-control me-2" type="search" placeholder="Escriba el artículo" aria-label="Search" name="id" required>
                 <input type="hidden" value="<?php echo seg::getToken()?>" name="token">
-                <button class="btn btn-outline-light" type="submit">Buscar</button>
-</form>     
+                <button class="btn btn-outline-light" type="submit">Buscar</button>  
+</form>
 
-            </form>
-            <?php ?>
             <ul class="navbar-nav">
             <li class="nav-item">
                     <a class="nav-link" href="<?php echo "index.php?c=".seg::codificar("usuario")."&m=".seg::codificar("cerrar_sesion")?>">Cerrar Sesión</a>
