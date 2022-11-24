@@ -1,13 +1,13 @@
 <div class="container-sm">
     <div class="row">
         <center><div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 ">
-        <?php if(isset($msg)){?>    
+                    <?php if($msg != ""){?>    
                         <div class="alert alert-warning alert-dismissible fade show" role="alert">
                             <strong>Error</strong><?php echo $msg?>
                             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                         </div>
                     <?php }?> 
-                        
+                          
             <form action="<?php echo "index.php?c=".seg::codificar("usuario")."&m=".seg::codificar("validar")?>" method="post">
                 <div class="mb-3" align ="left">
                     <label for="exampleInputText1"  class="form-label">Usuario</label>

@@ -10,6 +10,8 @@ class productos_controller{
         require_once("views/productos/inicio.php");
         require_once("views/template/footer.php");
    } 
+
+
    public static function datos_producto(){
       $producto[] = new productos(1,"Cuadernos","Un cuaderno es un conjunto de hojas de papel, impresas o en blanco, unidas con una espiral o dobladas, encajadas o cosidas​, que forman un libro delgado.","2.00 $","5.00 $","10px en inventario","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpL67R3yePwCg_pBakcGT8Yd50WzrNlQFkgg&usqp=CAU");
       $producto[] = new productos(2,"Borradores","Utensilio que sirve para borrar lo escrito en un pizarrón.","1.00 $","1.75 $","40px en inventario","data:image/jpeg;base64,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");
@@ -23,27 +25,23 @@ class productos_controller{
       return $producto;
    }
    public static function mostrar(){
-      $titulo = "Tabla de Artículos";
-      if ($_POST){
-         $_SESSION["token"]=$_POST["token"];
+      if($_POST){
          if(!isset($_POST["token"]) || !seg::validaSession($_POST["token"])){
             echo "Acceso restringido";
             exit();
          }
-         $id = filter_var($_POST["id"], FILTER_SANITIZE_FULL_SPECIAL_CHARS);
-         $obj=new productos($id,"","","","","","");
+
+         $id=filter_var($id, FILTER_SANITIZE_FULL_SPECIAL_CHARS);
+
+         $obj = new productos($id,"","","","","","");
          $resultado = $obj->getProductos();
-         if(count($resultado)>0){
-         $titulo = "Descripción de Artículos";
-        require_once("views/template/header.php"); 
-        require_once("views/template/navbar.php");
-        require_once("views/principal/index.php");
-        require_once("views/productos/mostrar.php");
-        require_once("views/template/footer.php");
-         }
-         else{
-            header("location: index.php?c=".seg::codificar("productos")."&m=".seg::codificar("inicio"));
-         }
+
+      $titulo = "Descripción de los artículos";
+      require_once("views/template/header.php"); 
+      require_once("views/template/navbar.php");
+      require_once("views/principal/index.php");
+      require_once("views/productos/mostrar.php");
+      require_once("views/template/footer.php");
       }
    } 
 }

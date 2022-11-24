@@ -70,7 +70,7 @@ class productos{
 
     public function getProductos(){
         $producto[] = [
-            "id"=>"1",
+            "id"=>1,
             "producto"=>"Cuadernos",
             "descripcion"=>"Un cuaderno es un conjunto de hojas de papel, impresas o en blanco, unidas con una espiral o dobladas, encajadas o cosidas​, que forman un libro delgado.",
             "costo_compra"=>"2.00 $",
@@ -78,7 +78,7 @@ class productos{
             "cantidad_en_existencia"=>"10px en inventario",
             "img"=>""];
         $producto[] = [
-            "id"=>"2",
+            "id"=>2,
             "producto"=>"Borradores",
             "descripcion"=>"Utensilio que sirve para borrar lo escrito en un pizarrón.",
             "costo_compra"=>"1.00 $",
@@ -86,7 +86,7 @@ class productos{
             "cantidad_en_existencia"=>"40px en inventario",
             "img"=>""];
         $producto[] = [
-            "id"=>"3",
+            "id"=>3,
             "producto"=>"Sacapuntas",
             "descripcion"=>"Un sacapuntas es el instrumento que se utiliza para afinar la madera y la punta de grafito de un lápiz cuando se ha engrosado",
             "costo_compra"=>"0.50 $",
@@ -94,7 +94,7 @@ class productos{
             "cantidad_en_existencia"=>"40px en inventario",
             "img"=>""];
         $producto[] = [
-            "id"=>"4",
+            "id"=>4,
             "producto"=>"Bolígrafos",
             "descripcion"=>"Instrumento para escribir que tiene en su interior un tubo de tinta especial y , en la punta , una bolita metálica que gira libremente .",
             "costo_compra"=>"1.00 $",
@@ -102,7 +102,7 @@ class productos{
             "cantidad_en_existencia"=>"35px en inventario",
             "img"=>""];
         $producto[] = [
-            "id"=>"5",
+            "id"=>5,
             "producto"=>"Mochila",
             "descripcion"=>"Bolsa de lona o de otro material resistente que , provista de correas para ser cargada a la espalda , sirve para llevar provisiones o equipos en excursiones , expediciones , viajes , etc.",
             "costo_compra"=>"2.00 $",
@@ -110,7 +110,7 @@ class productos{
             "cantidad_en_existencia"=>"10px en inventario",
             "img"=>""];
         $producto[] = [
-            "id"=>"6",
+            "id"=>6,
             "producto"=>"Reloj",
             "descripcion"=>"Instrumento capaz de medir, mantener e indicar el tiempo en unidades convencionales (horas, minutos o segundos).",
             "costo_compra"=>"20.00 $",
@@ -118,7 +118,7 @@ class productos{
             "cantidad_en_existencia"=>"10px en inventario",
             "img"=>""];
         $producto[] = [
-            "id"=>"7",
+            "id"=>7,
             "producto"=>"libretas",
             "descripcion"=>"Cuaderno o libro pequeño destinado a escribir en él anotaciones o cuentas.",
             "costo_compra"=>"2.00 $",
@@ -126,7 +126,7 @@ class productos{
             "cantidad_en_existencia"=>"15px en inventario",
             "img"=>""];
         $producto[] = [
-            "id"=>"8",
+            "id"=>8,
             "producto"=>"calculadora",
             "descripcion"=>"Máquina electrónica capaz de efectuar cálculos aritméticos.",
             "costo_compra"=>"3.00 $",
@@ -134,7 +134,7 @@ class productos{
             "cantidad_en_existencia"=>"20px en inventario",
             "img"=>""];
         $producto[] = [
-            "id"=>"9",
+            "id"=>9,
             "producto"=>"corrector",
             "descripcion"=>"fluido blanco y opaco, a manera de tinta, que se aplica en el papel para tapar errores en el texto.",
             "costo_compra"=>"1.00 $",
