@@ -1,6 +1,5 @@
 <?php
 if(session_status()==1)session_start();
-
 class seg{
     public static function codificar($p){
         return base64_encode(base64_encode($p));

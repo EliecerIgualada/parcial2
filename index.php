@@ -1,4 +1,5 @@
 <?php 
+
 require_once("controllers/principal_controller.php");
 require_once("controllers/productos_controller.php");
 require_once("controllers/usuario_controller.php");
